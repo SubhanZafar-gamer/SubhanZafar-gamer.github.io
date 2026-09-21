@@ -1,0 +1,160 @@
+/* ===== GENERAL ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #222;
+    margin: 0;
+}
+
+
+/* ===== HEADER ===== */
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header img {
+    width: 300px;
+    max-width: 90%;
+    margin-top: 15px;
+}
+
+
+/* ===== NAVIGATION ===== */
+
+nav {
+    background-color: #334155;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ===== SECTIONS ===== */
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* ===== HEADINGS ===== */
+
+h2 {
+    color: #1e293b;
+}
+
+h3 {
+    color: #334155;
+}
+
+
+/* ===== TABLE ===== */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #334155;
+    color: white;
+}
+
+
+/* ===== PROJECTS ===== */
+
+article {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #334155;
+    border-radius: 8px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+
+/* ===== CONTACT FORM ===== */
+
+form {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+fieldset {
+    padding: 25px;
+    border: 2px solid #334155;
+    border-radius: 10px;
+    background-color: white;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #334155;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e293b;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
